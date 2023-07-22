@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Advanced Search</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div class="navbar">
+    <img class="adv-logo" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"></img>
+    <div class="navbar-menu">
+      <a href="index.html">Google Search</a>
+    </div>
+  </div>
+
+  <div class="adv-hdr">Advanced Search</div>
+  <div class="adv-content">
+    <form action="https://google.com/search" method="GET">
+      <div class="adv-block">
+        <div class="adv-left-hdr">Find pages with...</div>
+        <div class="adv-mid">&nbsp;</div>
+        <div class="adv-right-hdr">To do this in the search box.</div>
+      </div>
+      <div class="adv-block">
+        <div class="adv-left">all these words:</div>
+        <div class="adv-mid"><input name="as_q" type="text"></div>
+        <div class="adv-right">Type the important words: <text>tri-colour rat terrier</text></div>
+      </div>
+
+      <div class="adv-block">
+        <div class="adv-left">this exact word or phrase:</div>
+        <div class="adv-mid"><input name="as_epq" type="text"></div>
+        <div class="adv-right">Put exact words in quotes: <text>"rat terrier"</text></div>
+      </div>
+
+      <div class="adv-block">
+        <div class="adv-left">any of these words:</div>
+        <div class="adv-mid"><input name="as_oq" type="text"></div>
+        <div class="adv-right">Type OR between all the words you want: <text>miniature OR standard</text></div>
+      </div>
+
+      <div class="adv-block">
+        <div class="adv-left">none of these words:</div>
+        <div class="adv-mid"><input name="as_eq" type="text"></div>
+        <div class="adv-right">Put a minus sign just before words that you don't want: <br><text>-rodent, -"Jack
+            Russell"</text>
+        </div>
+      </div>
+
+      <div class="adv-block">
+        <div class="adv-left">&nbsp;</div>
+        <div class="adv-mid"><input class="adv-submit" type="submit" value="Advanced Search"></div>
+        <div class="adv-right">&nbsp;</div>
+      </div>
+    </form>
+
+  </div>
+
+</body>
+
+</html>
