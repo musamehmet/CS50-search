@@ -1,8 +1,10 @@
 # google-search-project
 Welcome to musamehmet's repository!
+
 The Google Search project is developed for CS50’s Web Programming with Python and JavaScript Lecture 0 and 1.
 
 Specification
+
 Your website must meet the following requirements:
 
 Your website should have at least three pages: one for regular Google Search (which must be called index.html), one for Google Image Search, and one for Google Advanced Search.
