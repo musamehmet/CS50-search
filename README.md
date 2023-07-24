@@ -1,4 +1,4 @@
-# google-search-project
+# Google Search Project
 Welcome to musamehmet's repository!
 
 The Google Search project is developed for CS50’s Web Programming with Python and JavaScript Lecture 0 and 1.
